@@ -81,17 +81,17 @@ static struct config {
 
               // Notifications
               .show_notification = TRUE,
-              .notification_type = 0,
+              .notification_type = 1,
 
               // Status icon
-              .stepsize = 0,
+              .stepsize = 5,
               .helper_program = NULL,
               .theme = NULL,
               .use_panel_specific_icons = FALSE,
               .reverse_scroll_direction = FALSE,
 
               // Left mouse button action
-              .lmb_slider = FALSE,
+              .lmb_slider = TRUE,
 
               // Middle mouse button action
               .mmb_mute = FALSE,
@@ -102,9 +102,9 @@ static struct config {
               .use_transparent_background = FALSE,
 
               // Hotkeys
-              .hotkey_up_enabled = FALSE,
-              .hotkey_down_enabled = FALSE,
-              .hotkey_mute_enabled = FALSE,
+              .hotkey_up_enabled = TRUE,
+              .hotkey_down_enabled = TRUE,
+              .hotkey_mute_enabled = TRUE,
               .hotkey_up = NULL,
               .hotkey_down = NULL,
               .hotkey_mute = NULL};
